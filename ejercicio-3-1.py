@@ -100,7 +100,6 @@ for botin in test_botin:
     if(np.min(listaPantalon)<np.min(listaAbrigo) and np.min(listaPantalon)<np.min(listaBotin) and np.min(listaPantalon)<np.min(listaZapatillas)):
         matrizConfusion[1,3]+=1
 
-
 for zapatillas in test_zapatillas:
     listaAbrigo=[]
     listaBotin=[]
@@ -134,10 +133,6 @@ for zapatillas in test_zapatillas:
     #If de cada lista Pantalon
     if(np.min(listaPantalon)<np.min(listaAbrigo) and np.min(listaPantalon)<np.min(listaBotin) and np.min(listaPantalon)<np.min(listaZapatillas)):
         matrizConfusion[2,3]+=1
-
-
-
-
 
 for pantalon in test_Pantalon:
     listaAbrigo=[]
